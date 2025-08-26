@@ -1,0 +1,212 @@
+[
+  {
+    "nome": "Design do Dia a Dia",
+    "descricao": "Um clássico que mostra como o design pode tornar objetos do cotidiano mais usáveis.",
+    "responsavel": "Don Norman",
+    "contato": "don.norman@designbooks.com",
+    "img": "https://covers.openlibrary.org/b/id/240726-S.jpg"
+  },
+  {
+    "nome": "Não Me Faça Pensar",
+    "descricao": "Princípios essenciais de usabilidade na web.",
+    "responsavel": "Steve Krug",
+    "contato": "steve.krug@uxbooks.com",
+    "img": "https://covers.openlibrary.org/b/id/9252165-L.jpg"
+  },
+  {
+    "nome": "A Psicologia das Cores",
+    "descricao": "Como as cores afetam nossas emoções e decisões.",
+    "responsavel": "Eva Heller",
+    "contato": "eva.heller@designcolors.com",
+    "img": "https://covers.openlibrary.org/b/id/6915486-L.jpg"
+  },
+  {
+    "nome": "Sprint",
+    "descricao": "Resolva problemas e teste ideias em 5 dias.",
+    "responsavel": "Jake Knapp",
+    "contato": "jake.knapp@sprintbook.com",
+    "img": "https://covers.openlibrary.org/b/id/8369251-L.jpg"
+  },
+  {
+    "nome": "Roube como um Artista",
+    "descricao": "Conselhos sobre criatividade e inspiração.",
+    "responsavel": "Austin Kleon",
+    "contato": "a.kleon@creativitylab.com",
+    "img": "https://covers.openlibrary.org/b/id/8231996-L.jpg"
+  },
+  {
+    "nome": "A Arte de Pensar Claramente",
+    "descricao": "Identifique erros comuns de raciocínio.",
+    "responsavel": "Rolf Dobelli",
+    "contato": "rolf.dobelli@mentalclarity.com",
+    "img": "https://covers.openlibrary.org/b/id/8368993-L.jpg"
+  },
+  {
+    "nome": "O Andar do Bêbado",
+    "descricao": "Como o acaso influencia nossas vidas.",
+    "responsavel": "Leonard Mlodinow",
+    "contato": "l.mlodinow@randomfacts.com",
+    "img": "https://covers.openlibrary.org/b/id/6979862-L.jpg"
+  },
+  {
+    "nome": "O Gene Egoísta",
+    "descricao": "A evolução sob o olhar dos genes.",
+    "responsavel": "Richard Dawkins",
+    "contato": "richard.dawkins@evolutionarybooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8231851-L.jpg"
+  },
+  {
+    "nome": "Sapiens",
+    "descricao": "Uma breve história da humanidade.",
+    "responsavel": "Yuval Noah Harari",
+    "contato": "yuval.harari@history.com",
+    "img": "https://covers.openlibrary.org/b/id/8370226-L.jpg"
+  },
+  {
+    "nome": "Homo Deus",
+    "descricao": "O futuro da humanidade sob o olhar tecnológico.",
+    "responsavel": "Yuval Noah Harari",
+    "contato": "yuval.harari@futurebooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8370227-L.jpg"
+  },
+  {
+    "nome": "21 Lições para o Século 21",
+    "descricao": "Reflexões sobre o presente e o futuro próximo.",
+    "responsavel": "Yuval Noah Harari",
+    "contato": "yuval.harari@modernchallenges.com",
+    "img": "https://covers.openlibrary.org/b/id/9373283-L.jpg"
+  },
+  {
+    "nome": "Mindset",
+    "descricao": "Como a mentalidade influencia o sucesso.",
+    "responsavel": "Carol S. Dweck",
+    "contato": "carol.dweck@psychobooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8109023-L.jpg"
+  },
+  {
+    "nome": "A Coragem de Ser Imperfeito",
+    "descricao": "Lidere com autenticidade e vulnerabilidade.",
+    "responsavel": "Brené Brown",
+    "contato": "brene.brown@leadershipbooks.com",
+    "img": "https://covers.openlibrary.org/b/id/10569425-L.jpg"
+  },
+  {
+    "nome": "Como Fazer Amigos e Influenciar Pessoas",
+    "descricao": "Princípios de relações humanas para o sucesso.",
+    "responsavel": "Dale Carnegie",
+    "contato": "dale.carnegie@lifeskills.com",
+    "img": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+  },
+  {
+    "nome": "O Poder do Hábito",
+    "descricao": "Como os hábitos moldam nossas vidas.",
+    "responsavel": "Charles Duhigg",
+    "contato": "charles.duhigg@habitchange.com",
+    "img": "https://covers.openlibrary.org/b/id/7779251-L.jpg"
+  },
+  {
+    "nome": "Essencialismo",
+    "descricao": "Foco no que realmente importa.",
+    "responsavel": "Greg McKeown",
+    "contato": "greg.mckeown@productivity.com",
+    "img": "https://covers.openlibrary.org/b/id/8370270-L.jpg"
+  },
+  {
+    "nome": "A Única Coisa",
+    "descricao": "Como focar no que traz mais resultados.",
+    "responsavel": "Gary Keller",
+    "contato": "gary.keller@focusbooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8370223-L.jpg"
+  },
+  {
+    "nome": "Trabalhe 4 Horas por Semana",
+    "descricao": "Reinvente sua vida com liberdade e propósito.",
+    "responsavel": "Tim Ferriss",
+    "contato": "tim.ferriss@lifestylebooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8133696-L.jpg"
+  },
+  {
+    "nome": "A Startup Enxuta",
+    "descricao": "Metodologia ágil para empreendedores.",
+    "responsavel": "Eric Ries",
+    "contato": "eric.ries@startupbooks.com",
+    "img": "https://covers.openlibrary.org/b/id/7352164-L.jpg"
+  },
+  {
+    "nome": "Hooked",
+    "descricao": "Como construir produtos viciantes.",
+    "responsavel": "Nir Eyal",
+    "contato": "nir.eyal@behaviortech.com",
+    "img": "https://covers.openlibrary.org/b/id/8232074-L.jpg"
+  },
+  {
+    "nome": "Thinking, Fast and Slow",
+    "descricao": "Dois sistemas que controlam o pensamento humano.",
+    "responsavel": "Daniel Kahneman",
+    "contato": "daniel.kahneman@behavioraleconomy.com",
+    "img": "https://covers.openlibrary.org/b/id/7275416-L.jpg"
+  },
+  {
+    "nome": "Antifrágil",
+    "descricao": "Como se beneficiar do caos.",
+    "responsavel": "Nassim Taleb",
+    "contato": "n.taleb@philosophybooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8370229-L.jpg"
+  },
+  {
+    "nome": "O Lado Difícil das Situações Difíceis",
+    "descricao": "Empreendedorismo na vida real.",
+    "responsavel": "Ben Horowitz",
+    "contato": "ben.horowitz@founderbooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8370254-L.jpg"
+  },
+  {
+    "nome": "Reinvente sua Empresa",
+    "descricao": "Modelos de trabalho modernos e flexíveis.",
+    "responsavel": "Jason Fried",
+    "contato": "jason.fried@remotecompany.com",
+    "img": "https://covers.openlibrary.org/b/id/8370253-L.jpg"
+  },
+  {
+    "nome": "Steve Jobs",
+    "descricao": "A biografia oficial do fundador da Apple.",
+    "responsavel": "Walter Isaacson",
+    "contato": "walter.isaacson@biographies.com",
+    "img": "https://covers.openlibrary.org/b/id/7419692-L.jpg"
+  },
+  {
+    "nome": "Biografia de Elon Musk",
+    "descricao": "A vida do bilionário por trás da Tesla e SpaceX.",
+    "responsavel": "Ashlee Vance",
+    "contato": "ashlee.vance@techbiographies.com",
+    "img": "https://covers.openlibrary.org/b/id/8232020-L.jpg"
+  },
+  {
+    "nome": "Clean Code",
+    "descricao": "Um manual de boas práticas em programação.",
+    "responsavel": "Robert C. Martin",
+    "contato": "robert.martin@cleancode.org",
+    "img": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+  },
+  {
+    "nome": "O Programador Pragmático",
+    "descricao": "Dicas práticas para desenvolvedores modernos.",
+    "responsavel": "Andrew Hunt",
+    "contato": "andrew.hunt@devbooks.com",
+    "img": "https://covers.openlibrary.org/b/id/8330457-L.jpg"
+  },
+  {
+    "nome": "Refatoração",
+    "descricao": "Melhore o design do seu código existente.",
+    "responsavel": "Martin Fowler",
+    "contato": "martin.fowler@refactoring.com",
+    "img": "https://covers.openlibrary.org/b/id/9261870-L.jpg"
+  },
+  {
+    "nome": "Algoritmos para Viver",
+    "descricao": "Como algoritmos podem ajudar no dia a dia.",
+    "responsavel": "Brian Christian",
+    "contato": "brian.christian@algolife.com",
+    "img": "https://covers.openlibrary.org/b/id/8370233-L.jpg"
+  }
+]
