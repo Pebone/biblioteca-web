@@ -1,6 +1,43 @@
-export default function BookModal({ book, onClose }) {
+import { useState } from "react";
+import api from "../../services/api";
+
+export default function BookModal({ book, onClose, onSuccess }) {
   if (!book) return null;
-  console.log("Books for modal", book);
+
+  const [form, setForm] = useState({
+    borrower_name: "",
+    requester_contact: "",
+    additional_notes: "",
+    return_date: "",
+  });
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const loanPayload = {
+      book_id: book.id,
+      borrower_name: form.borrower_name,
+      requester_contact: form.requester_contact,
+      additional_notes: form.additional_notes,
+      return_date: form.return_date,
+    };
+
+    console.log("Payload sendo enviado:", loanPayload);
+
+    try {
+      const res = await api.post("/loans", loanPayload);
+      console.log("Empréstimo realizado com sucesso:", res.data);
+      onClose();
+    } catch (err) {
+      console.error("Erro ao solicitar empréstimo:", err);
+      alert("Erro ao solicitar empréstimo. Por favor, tente novamente.");
+    }
+  };
+
   return (
     <div
       className="modal"
@@ -33,6 +70,50 @@ export default function BookModal({ book, onClose }) {
             >
               Reserve Já
             </a>
+
+            <form onSubmit={handleSubmit} className="form">
+              <h3>Solicitar Empréstimo</h3>
+              <input
+                type="text"
+                name="book_id"
+                placeholder="Id do livro"
+                value={form.book_id}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="text"
+                name="borrower_name"
+                placeholder="Nome do Responsável"
+                value={form.borrower_name}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="text"
+                name="requester_contact"
+                placeholder="Contato do Solicitante"
+                value={form.requester_contact}
+                onChange={handleChange}
+                required
+              />
+              <textarea
+                name="additional_notes"
+                placeholder="Notas Adicionais"
+                value={form.additional_notes}
+                onChange={handleChange}
+              />
+              <input
+                type="date"
+                name="return_date"
+                value={form.return_date}
+                onChange={handleChange}
+                required
+              />
+              <button type="submit" className="submitBtn">
+                Solicitar
+              </button>
+            </form>
           </div>
         </div>
         <button className="closeModal" onClick={onClose}>
